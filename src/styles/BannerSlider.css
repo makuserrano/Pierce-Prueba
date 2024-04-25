@@ -1,0 +1,90 @@
+.banner-container {
+  width: 100wh; /* Establece la altura al 100% de la ventana */
+  margin: auto; /* Centra el banner y proporciona un pequeño margen */
+  text-align: center;
+}
+
+.banner-container img {
+  width: 100%;
+}
+.slick-dots {
+  position: absolute; /* Reajusta la posición de los puntos de navegación */
+  bottom: 70px; /* Ajusta el espacio desde la parte inferior del banner */
+  margin: 0 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: auto; /* Ajustamos el ancho para que se ajuste automáticamente al contenido */
+
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+.slick-next {
+  display: none;
+}
+/* Estilo para los dots activos */
+.slick-dots li.slick-active button::before {
+  color: #fff; /* Cambia el color aquí */
+  width: 10px;
+  height:10px;
+  text-align: center;
+  background-color: white;
+  align-items: center;
+}
+.slick-dots li button {
+  background: transparent;
+  border: none;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+}
+
+/* Estilo para los dots inactivos */
+.slick-dots li button::before {
+  color: transparent; /* Cambia el color aquí */
+  border: 3px solid #fff; /* Borde blanco */
+  background-color: transparent; /* Centro transparente */
+  border-radius: 50%; /* Borde circular */
+  width: 10px;
+  height: 10px;
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+    margin:auto; /* Añade un margen superior en dispositivos más grandes */
+    height: 100%;
+  }
+
+  .banner-container img {
+    content: url("../assets/BannerMobile.png"); /* Cambia la imagen para dispositivos más grandes */
+  }
+
+  .slick-dots {
+    position: absolute; /* Reajusta la posición de los puntos de navegación */
+    bottom: 10px; /* Ajusta el espacio desde la parte inferior del banner */
+  }
+  .slick-dots li button {
+    background: transparent;
+    border: none;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+  }
+  
+  /* Estilo para los dots inactivos */
+  .slick-dots li button::before {
+    color: transparent; /* Cambia el color aquí */
+    border: 3px solid #fff; /* Borde blanco */
+    background-color: transparent; /* Centro transparente */
+    border-radius: 50%; /* Borde circular */
+    width: 10px;
+    height: 10px;
+    text-align: center;
+  
+  }
+}

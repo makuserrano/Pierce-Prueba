@@ -1,0 +1,44 @@
+:root {
+  --background-color-Vitrina: #dc1e0f;
+}
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--background-color-Vitrina);
+  padding-bottom: 3rem;
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  max-width: 100vw;
+}
+.h2-tendencias {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+  margin: 3rem 3rem 3rem 10rem;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+
+.slick-prev {
+  left: 150px; /* Ajusta el espacio a la izquierda */
+}
+
+.slick-next {
+  right: 150px; /* Ajusta el espacio a la derecha */    
+    
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: white;
+}
