@@ -51,7 +51,7 @@ function NavBar() {
             <li className="small-nav-item">Colchones</li>
             <li className="small-nav-item">Herramientas</li>
             <li className="small-nav-item ofertas" style={{ color: "red", lineHeight: 0 }}>
-              Ofertas <img src={offerIcon} style={{ verticalAlign: "middle", marginLeft: "1px" }}/></li>
+              Ofertas <img alt="OFERTAS" src={offerIcon} style={{ verticalAlign: "middle", marginLeft: "1px" }}/></li>
           </ul>
         </div>
       </div>

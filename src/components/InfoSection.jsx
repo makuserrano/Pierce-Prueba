@@ -13,7 +13,7 @@ function InfoSection() {
     <div className="info-slide">
       <div className="info-content">
         <div className="info-icon">
-          <img src={icon} className="custom-icon" />
+          <img src={icon} alt="informacion" className="custom-icon" />
         </div>
         <h3 className="info-title ">{title}</h3>
         <p className="info-description ">{description}</p>

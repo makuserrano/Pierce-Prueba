@@ -21,16 +21,16 @@ const BannerSlider = () => {
     <div className="banner-container">
        <Slider {...settings} className="cards-banner">
         <div className="banner-container">
-          <img src={bannerImage} alt="banner-image" />
+          <img src={bannerImage} alt="banner"/>
         </div>
         <div>
-          <img src={bannerImage} alt="banner-image" />
+          <img src={bannerImage}  alt="banner" />
         </div>
         <div>
-          <img src={bannerImage} alt="banner-image" />
+          <img src={bannerImage} alt="banner"/>
         </div>
         <div>
-          <img src={bannerImage} alt="banner-image" />
+          <img src={bannerImage} alt="banner"/>
         </div>
       </Slider>
     </div>
