@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/NavBar.css";
-
+import  offerIcon from "../assets/offer-icon.png";	
 import { FaSearch } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -29,7 +29,7 @@ function NavBar() {
             <div className="search-icon">{<FaSearch />}</div>
           </div>
 
-          <div className="icon">
+          <div className="icon" style={{ cursor: "pointer" }}>
             <FontAwesomeIcon icon={faUser} className="iconUser" />
             <div className="iconText">
                 <p className="miCuenta">Mi cuenta</p>
@@ -50,12 +50,12 @@ function NavBar() {
             <li className="small-nav-item">Calzado</li>
             <li className="small-nav-item">Colchones</li>
             <li className="small-nav-item">Herramientas</li>
-            <li className="small-nav-item ofertas">Ofertas</li>
+            <li className="small-nav-item ofertas" style={{ color: "red", lineHeight: 0 }}>
+              Ofertas <img src={offerIcon} style={{ verticalAlign: "middle", marginLeft: "1px" }}/></li>
           </ul>
         </div>
       </div>
 
-    	{/* /*        Nav mobile       */}
 
 
       <div className="mobile-nav">

@@ -1,0 +1,144 @@
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff; /* Ajusta la altura según sea necesario */
+  height: 290px;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 37.5px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.first ul {
+  list-style-type: none; /* Elimina los estilos de lista predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+  justify-content: center;
+}
+.footer-list {
+  text-transform: uppercase;
+  width: 221px;
+  height: 100px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.Powered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  text-transform: lowercase;
+}
+
+.PoweredPirce {
+  width: 69.37px;
+  height: 14.22px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-button {
+  background: transparent;
+  border: 1px solid #ffffff;
+  height: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+.footer-button button {
+  padding: 20px;
+}
+
+.Sucursales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sucursales-h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  gap: 10px;
+  margin-right: 70px
+}
+
+.sucursal-list {
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  
+  
+}
+
+.footer-copyright {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+    /* position: relative;
+    
+    top: 35px; */
+}
+.DataFiscal{
+
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+
+  
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Apilar elementos verticalmente en dispositivos móviles */
+        justify-content: center; /* Centrar elementos horizontalmente en dispositivos móviles */
+        height: 681px; /* Altura automática para adaptarse al contenido */
+        overflow-x: hidden; /* Ocultar desplazamiento horizontal */
+        width: 100vw;
+      }
+      
+      .footer-section {
+        margin-bottom: 20px; /* Agregar espacio entre secciones en dispositivos móviles */
+      
+    }
+      
+      .DataFiscal {
+        margin-top: 10px; /* Ajustar el margen superior en dispositivos móviles */
+        align-self: center; /* Centrar horizontalmente en dispositivos móviles */
+      }
+      .footer-section.first {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .footer-section.first .footer-title {
+        order: -1 !important; /* Mueve el título al principio */
+      }
+  }

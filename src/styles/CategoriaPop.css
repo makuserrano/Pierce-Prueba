@@ -1,0 +1,120 @@
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+.slider-responsive{
+    display: none;
+}
+.gallery-img {
+  position: relative;
+  margin: 3px;
+  overflow: hidden;
+}
+
+.gallery-img img {
+  width: 100%;
+  height: auto;
+}
+.center-double-container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 0.5rem;
+}
+
+.h4-text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  position: absolute;
+  bottom: 0px;
+  left: -40px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.h4-text-calza {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  position: absolute;
+  bottom: 0;
+  left: -490px;
+  width: 100%;
+  color: white;
+  text-align: end;
+  padding: 10px;
+  margin: 0;
+}
+.h4-text-ball {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  position: absolute;
+  bottom: 0px;
+  left: -80px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.gallery-img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.h2-visit {
+  margin: 3rem 7.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 32px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.slider-responsive-category{
+    display: none !important;
+}
+.h2-visit-responsive{
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .slider-responsive-category{
+        display: block !important;
+        font-style: italic;
+    }
+    .h2-visit-responsive{
+        display: block !important;
+        margin: 2rem;
+        font-style: italic;
+    }
+    .container-category{
+        display: none;
+    }
+    .h2-visit{
+        display: none;
+    }
+    .h4-text-responsive{
+        position: absolute;
+        font-family: Rubik;
+        font-size: 38px;
+        font-weight: 800;
+        line-height: 45.03px;
+        text-align: left;
+        color: #FFFFFF;
+        text-shadow: -1px 1px 0px #FFFFFF;
+    }
+    
+    .gallery-container-mobile{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-container-mobile img{
+      width: 100vw;
+    }
+  }

@@ -98,6 +98,9 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  .small-nav-item:hover {
+    color: #9b3730;
+  }
   
   .miCuenta {
     white-space: nowrap;
@@ -182,7 +185,6 @@
       outline: none;
     }
      
-    /* Menú móvil */
     .mobile-menu {
       display: none;
       position: fixed;
@@ -197,10 +199,10 @@
       z-index: 999;
     }
      
-    /* Contenido del menú móvil abierto */
     .mobile-menu-open {
       display: flex;
-    } 
+      background-color: #ffff;
+    }
     /* Contenido del menú móvil */
      .mobile-menu-content {
       width: 100%;
@@ -244,12 +246,10 @@
       margin: 15px 0;
     }
    
-    /* Efecto hover para el enlace de ofertas en el menú móvil */
    .link-Ofertas:hover {
       color: #b40c00;
     } 
     
-    /* Estilos para los enlaces del menú móvil */
    .mobile-menu-content-link-a {
       font-family: 'Roboto', sans-serif;
       cursor: pointer;
@@ -262,21 +262,16 @@
       font-weight: 700;
       line-height: 24px;
     }
-    
-    /* Contenedor de enlaces en el menú móvil */
      .mobile-menu-content-link {
       width: 80%;
       display: flex;
       flex-direction: column;
     } 
     
-    /* Ícono de globo en modo móvil */
      .icon-earth {
       color: var(--color-red);
       margin-left: 0.3rem;
     } 
-    
-    /* Ícono de cierre en el menú móvil */
     .close-icon {
       position: absolute;
       z-index: 999;
@@ -284,8 +279,6 @@
       right: 10px;
       cursor: pointer;
     }
-    
-    /* Contenedor de la barra de búsqueda en modo móvil */
     .search-bar-container {
       margin: auto auto;
       display: flex;
@@ -293,15 +286,12 @@
       width: 95%;
     }
     
-    /* Barra de búsqueda en modo móvil */
     .search-bar {
       position: relative;
       display: flex;
       align-items: center;
       width: 100%;
     }
-    
-    /* Entrada de la barra de búsqueda en modo móvil */
     .search-bar-input {
       width: 100%;
       padding: 10px;
@@ -309,15 +299,12 @@
       border-radius: 25px;
     }
     
-    /* Ícono de búsqueda en modo móvil */
-    /* .search-icon {
+     .search-icon {
       position: absolute;
       right: 10px;
       color: var(--color-grey);
       cursor: pointer;
-    } */
-    
-    /* Línea de separación en la barra de búsqueda en modo móvil */
+    }
     .line {
       position: absolute;
       border-top: 1px solid black;
@@ -326,11 +313,9 @@
       margin: 20px auto 0 auto;
     }
     
-    /* Línea de separación en los enlaces del menú móvil */
      .line-link {
       border-top: 0.65px solid black;
     } 
-    /* Estilo para el enlace en modo móvil */
     .mobile-nav-top h1 a {
       color: #0F1E7B;
       width: 100%;
@@ -353,6 +338,15 @@
     .mobile-nav-top h1 {
       position: absolute;
       left: 33%;
+    }
+    .close-icon {
+      position: absolute; /* Asegura que el icono esté posicionado de forma absoluta */
+      top: 10px; /* Ajusta la posición vertical del icono según sea necesario */
+      right: 20px; /* Ajusta la posición horizontal del icono según sea necesario */
+      cursor: pointer; /* Hace que el cursor cambie a un puntero al pasar sobre el icono */ /* Cambia el color del icono según tus necesidades */
+      font-size: 20px; /* Ajusta el tamaño del icono según sea necesario */
+      color: #000000;
+      z-index: 1000;
     }
   } 
 

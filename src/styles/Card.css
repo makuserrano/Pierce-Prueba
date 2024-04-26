@@ -1,45 +1,90 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
 .cards-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
-.card {
-  width: 90%; /* Ancho relativo al contenedor padre */
-  min-width: 246px; /* Ancho máximo */
-  height: 402px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
-  box-sizing: border-box; /* Incluir el padding en el ancho total */
-  padding: 15px;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  color:#5E5E5E;
-  font-size: 16px;
+.title-card {
+  font-family: Roboto;
+  font-size: 15px;
   font-weight: 500;
   line-height: 20px;
   text-align: center;
-  margin: auto;
 }
 
-.card-image {
-  max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
-  max-height: 100%; /* Ajusta la imagen al alto del contenedor */
-  margin: auto; /* Centra la imagen horizontalmente */
+.content-card {	
+  font-weight: 700;
 }
-.slick-dots {
-  display: none !important;
+.card {
+  margin: 0 auto 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 250px; /* Ancho máximo */
+  height: 402px;
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box; /* Incluir el padding en el ancho total */
+  padding: 15px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.img-card {
+  object-fit: cover;
 }
 
-@media (min-width: 768px) {
+.btn-card {
+  background-color: #FFFFFF;
+  color: #DC1E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #DC1E0F;
+  padding: .1rem .5rem;
+  cursor: pointer;
+}
+.btn-card:hover{
+  background-color: #DC1E0F;
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
   /* Media query para pantallas más grandes */
   .card {
-    width: 45%; /* Porcentaje del ancho del contenedor padre */
-    max-width: none; /* Eliminar el ancho máximo */
-    margin: 10px 0; /* Espacio entre las tarjetas */
+    max-width: 250px; /* Eliminar el ancho máximo */
     padding: 30px;
   }
-  .slick-dots {
-    display: block;
+
+  .cards-container .slick-dots li button {
+    /*  position: relative;
+  bottom: 0px; */
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+  }
+  .cards-container .slick-dots li button::before {
+    color: transparent;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    border: #fff 2px solid;
+  }
+  .h2-responsive {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
+    color: #000000;
   }
 }

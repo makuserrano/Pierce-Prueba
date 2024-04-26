@@ -1,0 +1,45 @@
+.info-content {	
+    background-color: #ECECEC;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 22vw;
+}
+.slider{
+    display: none;
+}
+.info-slide{
+  background-color: #ECECEC;
+}
+.info-content img{	
+    margin: auto;
+}
+
+.info-container {	
+    display: flex !important;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #ECECEC;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .info-content {
+        margin: auto;
+        max-width: 80vw;
+        width: 80vw;
+        display: flex !important;
+        justify-content: center;
+        flex-direction: column !important;
+
+    }
+
+    .info-slide{
+        height: 30vh;
+    }
+
+    .slider {
+        display: block;
+    }
+}
