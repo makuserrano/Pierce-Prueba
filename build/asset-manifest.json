@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pierce-prueba/static/css/main.3201ae78.css",
+    "main.js": "/pierce-prueba/static/js/main.40779b22.js",
+    "static/js/453.822628c3.chunk.js": "/pierce-prueba/static/js/453.822628c3.chunk.js",
+    "static/media/bannerPc.png": "/pierce-prueba/static/media/bannerPc.82b87243d1e70fba8511.png",
+    "static/media/Rectanglepelotas.png": "/pierce-prueba/static/media/Rectanglepelotas.9d2d42afbaac11120b08.png",
+    "static/media/zapatillas.png": "/pierce-prueba/static/media/zapatillas.5be61173bcffda65b0d7.png",
+    "static/media/Rectanglefutbol.png": "/pierce-prueba/static/media/Rectanglefutbol.6bca585abd402151ac36.png",
+    "static/media/Rectanglecalzas.png": "/pierce-prueba/static/media/Rectanglecalzas.383d2405aedce1a34fc9.png",
+    "static/media/BannerMobile.png": "/pierce-prueba/static/media/BannerMobile.13e7dc17d5be6c56084c.png",
+    "static/media/zapatilla-responsive.png": "/pierce-prueba/static/media/zapatilla-responsive.76d188d16d2ec9e0ccc8.png",
+    "static/media/lavarropas.png": "/pierce-prueba/static/media/lavarropas.d420e799734a369e9769.png",
+    "static/media/slick.svg": "/pierce-prueba/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pierce-prueba/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pierce-prueba/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/pierce-prueba/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/pierce-prueba/index.html",
+    "main.3201ae78.css.map": "/pierce-prueba/static/css/main.3201ae78.css.map",
+    "main.40779b22.js.map": "/pierce-prueba/static/js/main.40779b22.js.map",
+    "453.822628c3.chunk.js.map": "/pierce-prueba/static/js/453.822628c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3201ae78.css",
+    "static/js/main.40779b22.js"
+  ]
+}
